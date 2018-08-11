@@ -10,6 +10,7 @@ function mostrar()
 
 	switch(estacionDelAño)
 	{
+		case:
 		case: "Otoño"
 			if(temperatura == 15)
 			{
@@ -30,5 +31,6 @@ function mostrar()
 					}
 				}
 			}
+		
 	}
 }
