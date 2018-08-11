@@ -1,16 +1,17 @@
 
 function mostrar()
 {
-    var ancho;
-    var largo;
-    var perímetro;
+	var largo;
+	var ancho;
+	var perimetro;
+	var pintura;
 
-    ancho = parseInt(prompt("Ingrese el ancho:"));
+	largo = parseInt(prompt("ingrese el largo: "));
+	ancho = parseInt(prompt("ingrese el ancho: "));
 
-    largo = parseInt(prompt("ingrese el largo:"));
-
-    perímetro = 2 * (ancho + largo);
-
-    alert("El perímetro es: " + perímetro);
-
+	perimetro = (largo + ancho)* 2;
+	pintura = perimetro / 3;
+	
+	alert("Perímetro = " + perimetro);
+	alert("Cantidad de pintura (en litros) = " + pintura);
 }
